@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-do List</title>
-    <link rel="stylesheet" href="to-do_list.css" />
+    <link rel="stylesheet" type="text/css" href="to-do_list.css" />
+    <script async src="to-do_list.js"></script>
   </head>
 
   <body>
     <div class="container">
       <div class="input-field">
         <textarea placeholder="Enter your new to-do"></textarea>
-        <i class="uil uil-notes note-icon"></i>
+        <!--<i class="uil uil-notes note-icon"></i> -->
       </div>
-      <ul class="todolists"></ul>
+      <ul class="todoLists"></ul>
       <div class="pending-tasks"></div>
-      <span>You have <span class="pending-num"> no</span> tasks pending</span>
-      <button class="clear-button">Clear All</button>
+      <span>You have <span class="pending-num"> no</span> tasks pending.</span>
+      <button id="clear-button">Clear All</button>
     </div>
   </body>
 </html>
